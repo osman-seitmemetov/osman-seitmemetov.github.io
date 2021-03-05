@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Гранит</title>
+
+    <!-- JS -->
+    <script src="js/libs.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__top">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="Granit">
+                </a>
+
+                <div class="header__top-right">
+                    <div class="header__top-phone">
+                        <a href="tel:+788003421333">8 800 342-13-33</a>
+
+                        <span>
+                            Бесплатный звонок по России
+                        </span>
+                    </div>
+
+                    <button class="header__top-button">
+                        Обратный звонок
+                    </button>
+
+                    <div id="menu-togle" class="menu-icon">
+                        <div class="menu-icon-line"></div>
+                    </div>
+
+                    <div id="mobile-nav" class="mobile-nav">
+                        <div class="mobile-nav__title">Навигация</div>
+                        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Главная</a></li>
+                            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Каталог</a></li>
+                            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Услуги</a></li>
+                            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Доставка</a></li>
+                            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">О компании</a></li>
+                            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Контакты</a></li>
+                        </ul>
+
+                        <div class="mobile-nav__phone">
+                            <a href="tel:+788003421333">8 800 342-13-33</a>
+
+                            <span>
+                                Бесплатный звонок по России
+                            </span>
+                        </div>
+
+                        <button class="mobile-nav__button">
+                            Обратный звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">Главная</a>
+                <a href="#" class="header__nav-link">Каталог</a>
+                <a href="#" class="header__nav-link">Услуги</a>
+                <a href="#" class="header__nav-link">Доставка</a>
+                <a href="#" class="header__nav-link">О компании</a>
+                <a href="#" class="header__nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="slider swiper-container">
+        <div class="swiper-wrapper">
+            <div class="slider__item swiper-slide" style="background-image: url('img/slider-bg-1.jpg');">
+                <div class="container">
+                    <div class="slider__item-offer">
+                        <div class="slider__item-offer-title">
+                            быстрая Доставка
+                        </div>
+
+                        <div class="slider__item-offer-text">
+                            бетона, щебня, песка и других нерудных материалов по Москве и Московской области
+                        </div>
+
+                        <a href="#" class="slider__item-offer-button">Подробнее о доставке</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__item swiper-slide" style="background-image: url('img/slider-bg-1.jpg');">
+                <div class="container">
+                    <div class="slider__item-offer">
+                        <div class="slider__item-offer-title">
+                            быстрая Доставка
+                        </div>
+
+                        <div class="slider__item-offer-text">
+                            бетона, щебня, песка и других нерудных материалов по Москве и Московской области
+                        </div>
+
+                        <a href="#" class="slider__item-offer-button">Подробнее о доставке</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stock">
+        <div class="container">
+            <div class="title">
+                Всегда в наличии
+            </div>
+
+            <div class="stock__items">
+                <div class="stock__item">
+                    <img src="img/sand.png" alt="" class="stock__item-img">
+
+                    <div class="stock__item-title">
+                        Песок речной
+                    </div>
+
+                    <div class="stock__item-text">
+                        Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он
+                        входит.
+                    </div>
+
+                    <div class="stock__item-price">
+                        от 330 р./т
+                    </div>
+
+                    <a href="#" class="stock__item-link">Подробнее</a>
+                </div>
+
+                <div class="stock__item">
+                    <img src="img/macadam.png" alt="" class="stock__item-img">
+
+                    <div class="stock__item-title">
+                        Щебень
+                    </div>
+
+                    <div class="stock__item-text">
+                        Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он
+                        входит.
+                    </div>
+
+                    <div class="stock__item-price">
+                        от 330 р./т
+                    </div>
+
+                    <a href="#" class="stock__item-link">Подробнее</a>
+                </div>
+
+                <div class="stock__item">
+                    <img src="img/soil.png" alt="" class="stock__item-img">
+
+                    <div class="stock__item-title">
+                        Грунт
+                    </div>
+
+                    <div class="stock__item-text">
+                        Мелкий речной песок повышает прочность, долговечность и морозоустойчивость растворов, в состав которых он
+                        входит.
+                    </div>
+
+                    <div class="stock__item-price">
+                        от 330 р./т
+                    </div>
+
+                    <a href="#" class="stock__item-link">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section privileges">
+        <div class="container">
+            <div class="title">Наши преимущества</div>
+
+            <div class="privileges__items">
+                <div class="privileges__item">
+                    <img src="img/icons/pig-icon.png" class="privileges__item-icon">
+
+                    <div class="privileges__item-title">
+                        Низкая цена
+                    </div>
+
+                    <div class="privileges__item-text">
+                        Мы сотрудничаем напрямую с производителем, поэтому можем гарантировать самую низкую цену.
+                    </div>
+                </div>
+
+                <div class="privileges__item">
+                    <img src="img/icons/transport-icon.png" class="privileges__item-icon">
+
+                    <div class="privileges__item-title">
+                        Быстрая доставка
+                    </div>
+
+                    <div class="privileges__item-text">
+                        Весь товар уже находится на нашем складе. Нам остается только погрузить его и в путь!
+                    </div>
+                </div>
+
+                <div class="privileges__item">
+                    <img src="img/icons/wheelbarrow-icon.png" class="privileges__item-icon">
+
+                    <div class="privileges__item-title">
+                        Индивидуальный подход
+                    </div>
+
+                    <div class="privileges__item-text">
+                        Вам нужны бесперебойные поставки или большая партия товара со скидкой? Мы найдем решение!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section popular">
+        <div class="container">
+            <div class="title">
+                Популярные товары
+            </div>
+
+            <div class="popular__items">
+                <div class="popular__item">
+                    <div class="popular__item-campaign">
+                        Акция
+                    </div>
+
+                    <img src="img/macadam-1.jpg" alt="" class="popular__item-img">
+
+                    <div class="popular__item-title">
+                        Гранитный щебень 5-20 мм
+                    </div>
+
+                    <div class="popular__item-price popular__item-price--campaign">
+                        <span>1 500 р./т</span> 1 350 р./т
+                    </div>
+
+                    <a href="#" class="popular__item-link">Купить</a>
+                </div>
+
+                <div class="popular__item">
+                    <div class="popular__item-campaign">
+                        Акция
+                    </div>
+
+                    <img src="img/macadam-2.jpg" alt="" class="popular__item-img">
+
+                    <div class="popular__item-title">
+                        Гранитный щебень 5-20 мм
+                    </div>
+
+                    <div class="popular__item-price popular__item-price--campaign">
+                        <span>1 500 р./т</span> 1 350 р./т
+                    </div>
+
+                    <a href="#" class="popular__item-link">Купить</a>
+                </div>
+
+                <div class="popular__item">
+                    <img src="img/macadam-3.jpg" alt="" class="popular__item-img">
+
+                    <div class="popular__item-title">
+                        Гранитный щебень 5-20 мм
+                    </div>
+
+                    <div class="popular__item-price">
+                        1 350 р./т
+                    </div>
+
+                    <a href="#" class="popular__item-link">Купить</a>
+                </div>
+
+                <div class="popular__item">
+                    <img src="img/macadam-4.jpg" alt="" class="popular__item-img">
+
+                    <div class="popular__item-title">
+                        Гранитный щебень 5-20 мм
+                    </div>
+
+                    <div class="popular__item-price">
+                        1 350 р./т
+                    </div>
+
+                    <a href="#" class="popular__item-link">Купить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section services">
+        <div class="container">
+            <div class="title">
+                Наши услуги
+            </div>
+
+            <div class="services__items">
+                <div class="services__item">
+                    <img src="img/2image.png" alt="" class="services__item-img">
+
+                    <div class="services__item-title">
+                        Аренда самосвала
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <img src="img/3image.png" alt="" class="services__item-img">
+
+                    <div class="services__item-title">
+                        Аренда спецтехники
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <img src="img/1image.png" alt="" class="services__item-img">
+
+                    <div class="services__item-title">
+                        Рытье траншеи
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="map">
+        <div class="container">
+            <div class="contacts__info">
+                <div class="contacts__info-title">
+                    Контакты
+                </div>
+
+                <div class="contacts__info-phone">
+                    <span>8 800 034-23-34</span>
+                    <span>8 495 034-23-34</span>
+                </div>
+
+                <div class="contacts__info-address">
+                    Московская обл. г. Балашиха,
+                    пер. Столовой, д.23, кор. 34
+                </div>
+
+                <div class="contacts__info-mail">
+                    Info@stroika.ru
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <a href="index.html" class="logo">
+                    <img src="img/logo-black.png" alt="">
+                </a>
+
+                <div class="footer__top-right">
+                    <a href="tel:+788003421333">8 800 342-13-33</a>
+
+                    <span>
+                        Бесплатный звонок по России
+                    </span>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__bottom-copy">
+                    © 2020. Гранит
+                </div>
+
+                <button class="footer__bottom-button">Обратный звонок</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+.footer {
+    background-color: #292929;
+    padding: 50px 0 43px 0;
+
+    &__container {
+        display: flex;
+        max-width: 940px;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 23px;
+        width: 100%;
+    }
+
+    &__top-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        a {
+            font-family: 'Gotham Pro Bold';
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 2px;
+        }
+
+        span {
+            font-family: 'Gotham Pro Regular';
+            font-size: 11px;
+            color: #fff;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__bottom-copy {
+        font-family: 'Gotham Pro Regular';
+        font-size: 12px;
+        color: #fff;
+    }
+
+    &__bottom-button {
+        padding: 15px 24px;
+        background: none;
+        border: 2px solid #fff;
+        font-family: 'Gotham Pro Medium';
+        font-size: 12px;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
+    }
+}

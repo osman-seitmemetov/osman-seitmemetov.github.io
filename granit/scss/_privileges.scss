@@ -1,0 +1,53 @@
+.privileges {
+    background-color: #f4f4f4;
+    flex-direction: column;
+    align-items: center;
+
+    &__items {
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 300px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #fff;
+        transition: .5s;
+        padding: 40px 30px;
+
+        &:nth-child(3n) {
+            margin-right: 0 !important;
+        }
+
+        &:hover {
+            background-color: #fff;
+        }
+    }
+
+    &__item-icon {
+        width: 52px;
+        height: 50px;
+        object-fit: contain;
+        object-position: center;
+        margin-bottom: 40px;
+    }
+
+    &__item-title {
+        font-family: 'Gotham Pro Medium';
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__item-text {
+        text-align: center;
+        color: #292929;
+        font-family: 'Gotham Pro Light';
+        font-size: 12px;
+    }
+}
